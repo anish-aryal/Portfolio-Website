@@ -1,0 +1,367 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+/* ptoperties for body */
+body{
+    font-family: sans-serif;
+    background-color: #FFFFFF;
+}
+ /* navigation  */
+ /* to give the properties to navigation */
+ .navarea {
+    background: #000000;
+    box-shadow: 0px 5px 0px 1px rgba(224, 224, 226, 0.25);
+    height: 95px;
+    width: 1440px;
+ }
+ /* properties for class content */
+.contents{
+    width: 100%;
+    margin:0 auto;
+}
+/* to give properties to nav and nav list */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    margin-top: 32px;
+    margin-right: 188px;
+}
+/* to give properties to logo */
+ .logo{
+    font-family: sans-serif;
+    margin-left: 188px;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 36px;
+    color: white;
+
+}
+/* to give properties to list and its items */
+.navlist li{
+    list-style: none;
+    margin-right: 100px;
+    align-items: center;
+    position:relative;
+}
+.navlist li:nth-last-of-type(1){
+    margin: 0;
+}
+.navlist li a {
+    color: #FFFFFF;
+    font-family: sans-serif;
+    text-decoration: none;
+    transition: color 0.4ms ease-in, 0.8s ease-out;
+}
+/* to give hover effect ot nav element */
+.navlist li a:hover{
+    color:aqua;
+    position: relative;
+}
+.herosection{
+    background-color: #000000;
+    width: 1440px;
+    height: 450px;
+    top: 71px;
+    left: 0px;
+    display: flex;
+}
+/* header section */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hi{
+    position: absolute;
+    width: 433px;
+    height: 44px;
+    left: 167px;
+    top: 159px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight:200;
+    font-size: 36px;
+    line-height: 49px;
+
+color:#FFFFFF;
+}
+.name{
+    position: absolute;
+    width: 433px;
+    height: 44px;
+    left: 165px;
+    top: 199px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+
+    color: #FFFFFF;
+}
+.role{
+    position: absolute;
+    width: 433px;
+    height: 44px;
+    left: 167px;
+    top: 244px;
+    
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 28px;
+    line-height: 38px;
+    
+    color: #FFFFFF
+}
+.role span{
+    color:aqua;
+    font-weight: 600;
+}
+.more{
+    position: absolute;
+    width: 241px;
+    height: 50px;
+    left: 167px;
+    top: 319px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #FFFFFF;
+}
+/* properties for image */
+.heroimg{
+    position: absolute;
+    width: 523px;
+    height: 371px;
+    left: 770px;
+    top: 109px;
+}
+/* properties for about me button */
+header a{
+position: absolute;
+width: 111.63px;
+height: 45px;
+left: 302px;
+top: 387px;
+text-decoration:none;
+font-family: sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+
+background: #000000;
+border: 1px solid #FFFFFF;
+padding: 10px 12px;
+display: inline-block;
+transition: 300ms;
+}
+/* hover effect for about me button */
+header a:hover{
+    transform: translateY(-8px);
+}
+/* to give css properties to profile class */
+.profile{
+    position: absolute;
+    width: 1440px;
+    height: 38px;
+    left: 0px;
+    top: 570px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 38px;
+    text-align: center;
+
+    color: #000000;
+    
+}
+/* to give css properties to first class */
+.first{
+    position: absolute;
+    width: 270px;
+    height: 33px;
+    left: 671px;
+    top: 655px;
+    
+    font-family: "Manrope", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #8ACF32;
+}
+/* to give css properties to firstexp class */
+.firstexp{
+    position: absolute;
+    width: 413px;
+    height: 108px;
+    left: 671px;
+    top: 680px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    line-height: 26px;
+    /* or 162% */
+
+    display: flex;
+    align-items: flex-end;
+    text-align: justify;
+    }
+    /* to give css properties to design class */
+.design{
+    position: absolute;
+    width: 223px;
+    height: 149px;
+    left: 408px;
+    top: 637px;
+    }
+    /* to give css properties to second class */
+.second{
+    position: absolute;
+    width: 270px;
+    height: 33px;
+    left: 405px;
+    top: 865px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 33px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8ACF32;
+    }
+/* to give css properties to secondexp class */
+.secondexp{
+    position: absolute;
+    width: 413px;
+    height: 106px;
+    left: 405px;
+    top: 928px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    display: flex;
+    align-items: flex-end;
+    text-align: justify;
+
+    color: #000000;
+}
+/* to give css properties to develop class */
+.develop{
+    position: absolute;
+    width: 218px;
+    height: 143px;
+    left: 863px;
+    top: 850px;
+}
+/* to give css properties to third clss */
+.third{
+    position: absolute;
+    width: 400px;
+    height: 38px;
+    left: 537px;
+    top: 1117px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+/* to give css properties to thirdexp class */
+.thirdexp{
+    position: absolute;
+    width: 718px;
+    height: 156px;
+    left: 425px;
+    top: 1185px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    text-align: justify;
+
+}
+/* to give css properties to reach class */
+.reach{
+    position: absolute;
+    width: 111.63px;
+    height: 51.84px;
+    left: 681px;
+    top: 1380px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+
+    color: #000000;
+
+    background: white;
+    border: 2px solid black;
+    padding-top: 14px;
+    display: inline-block;
+    transition: 300ms;
+}
+/* to give a hover effect to reach class */
+.reach:hover{
+    transform: translateY(-8px);
+
+}
+
+.sec{
+    height: 920px;
+}
+section{
+    display: flex;
+
+}
+

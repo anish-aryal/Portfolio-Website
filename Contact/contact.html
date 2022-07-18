@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <!-- to link CSS file -->
+    <link rel="stylesheet" href="contact.css">
+    
+</head>
+<body>
+    <!-- creating a div or section nav area for navigation bar -->
+    <div class="navarea">
+        <div class="contents">
+            <!--  -->
+            <nav>
+                <div class="logo">Portfolio</div>
+                <!-- creating a list of nav elements -->
+                <ul class="navlist">
+                    <li>
+                        <!-- linking index.html page to Home element -->
+                        <a href="/homepage/index.html">Home</a>
+                    </li>
+                    <li>
+                        <!-- linking blog.html to Blogs element -->
+                        <a href="/Blogs/blog.html">Blogs</a>
+                    </li>
+                    <li>
+                         <!-- linking research.html file to Blogs element -->
+                        <a href="/Research/research.html">Research</a>
+                    </li>
+                    <li>
+                        <!-- linking CV.html file to Blogs element -->
+                        <a href="/CV/cv.html">CV</a>
+                    </li>
+                    <li>
+                        <!-- linking contact.html file to Blogs element -->
+                        <a href="/Contact/contact.html">Contact</a>
+                    </li>
+                </ul>
+                <!-- closing nav tag -->
+            </nav>
+        </div>
+        <!-- closing division with class navarea -->
+    </div>
+    <!-- creating a division to add content below nav bar -->
+   <div>
+       <!-- adding a heading text  of size h1 to class  -->
+       <h1 class="talk">
+            Want to talk to me?
+        </h1>
+        <!-- Adding a new paragraph -->
+        <p>
+            IF you are looking for further information about me and my work.<br>
+            IF you are looking are thinking of hiring me for your work.<br>
+            Liked any of my previous Projects? <br>
+            Have some suggestion and offers? <br><br>
+            <!-- writing a line in bold text -->
+            <b>Why not get connected and speak directly to me?</b><br>
+            Here are my socal handles and other places you can reach me:
+        </p>
+    </div>
+    <!-- creating a table -->
+    <table>
+        <!-- inserting table data and table row  -->
+        <tr>
+            <td> <a href="" style="align-items: center; text-align: center;"><img src="images/facebook 1.svg" alt=""></a></td>
+            <td> <a href="" style="align-items: center; text-align: center;"><img src="images/gmail 1.svg" alt=""></a></td>
+            <td> <a href="" style="align-items: center; text-align: center;"><img src="images/instagram 1.svg" alt=""></a></td>
+            <td> <a href="" style="align-items: center; text-align: center;"><img src="images/twitter(1) 1.png" alt=""></a></td>
+        </tr>
+    </table>
+    <!-- creatinng a heading text of size h1 with class message  -->
+    <h1 class="message" >Message me now through website</h1>
+    <!-- creating a division for form  -->
+    <div class="container">
+        <!-- Addding a form to write messages -->
+        <form name="messageform" onsubmit="validateForm()">
+            <!-- adding box to give input and write name for inout box -->
+            <label for="Firstname">First Name</label>
+            <input type="text" name="Firstname" placeholder="Your name..">
+           
+            <!-- adding box to give input and write name for inout box -->
+             <label for="Lastname">Last Name</label>
+            <input type="text"  name="Lastname" placeholder="Your last name.."><br>
+            <!-- adding box to give input and write name for inout box -->
+            <label for="Email Address">Email Address</label><br>
+            <input type="text"  name="EmailAddress" placeholder="Your Email here">
+            <!-- adding box to give input and write name for inout box -->
+            <label for="Subject">Subject</label><br>
+            <input type="text"  name="Subject" placeholder=" Write down the subject">
+            <!-- adding box to give input and write name for inout box -->
+            <label for="Message">Message</label><br>
+            <textarea   placeholder="Your message here.." style="height: 200px; width: 100%;"></textarea><br>
+
+            <!-- adding a submit button -->
+            <input style="align-items: center;" type="submit" value="send">
+            <!-- closing the corm -->
+        </form>
+        <script>
+        function validateForm(){
+            var fname= document.forms["messageform"]["Firstname"].value;
+            var lname= document.forms["messageform"]["Lastname"].value;
+            var email= document.forms["messageform"]["EmailAddress"].value;
+            var subject= document.forms["messageform"]["Subject"].value;
+            var msg= document.forms["messageform"]["msg"];
+            
+            if(fname=="" || lname=="" || email==""  || subject=="" || msg=="") {
+                alert("Empty Fields Found. Please fill the form proprly ");
+            }
+            else{
+                alert( "Your Message is sent.");
+            }
+        
+        }</script>
+        <!-- closing div with container class -->
+    </div>
+<!-- closing body tag -->
+
+</body>
+</html>

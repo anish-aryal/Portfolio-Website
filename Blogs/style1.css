@@ -1,0 +1,243 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+/* body properties */
+body{
+    font-family:sans-serif;
+    background-color: white;
+}
+ /* navigation */
+ .navarea {
+    background: #000000;
+    box-shadow: 0px 1px 0px 1px rgba(255, 255, 255, 0.4);
+    height: 95px;
+    width: 1440px;
+ }
+ /* givingproperties to the class content */
+.contents{
+    width: 1400;
+    margin:0 auto;
+    position: relative;
+}
+/* giving properties to the nav tag */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    margin-top: 32px;
+    margin-right: 188px;
+}
+/* adding properties to logo */
+ .logo{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 36px;
+    margin-left: 188px;
+    color: #FFFFFF
+}
+/* adding properties to nav list */
+.navlist li{
+    list-style: none;
+    margin-right: 100px;
+    align-items: center;
+    position:relative;
+}
+.navlist li:nth-last-of-type(1){
+    margin: 0;
+}
+.navlist li a {
+    color: #FFFFFF;
+    font-family: sans-serif;
+    text-decoration: none;
+    transition: color 0.4ms ease-in, 0.8s ease-out;
+}
+/* hover effect to the nav elements */
+.navlist li a:hover{
+    color:aqua;
+    position: relative;
+}
+/* image properties */
+.usericon{
+    position: absolute;
+    width: 34px;
+    height: 31px;
+    left: 188px;
+    top: 122px;
+}
+/* properties to post detail class */
+.postdetail{
+    position: absolute;
+    width: 1280;
+    height: 16px;
+    left: 232px;
+    top: 134px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: left;
+
+    color: #000000;
+}
+.postdetail span{
+    font-weight: bold;
+    font-family: sans-serif ;
+}
+/* properties to post head clss */
+.posthead{
+    position: absolute;
+    width: 80%;
+    height: 40px;
+    left: 192px;
+    top: 177px;
+
+    font-family: sans-serif;
+    text-align: left;
+    font-weight: bold;
+    line-height: auto;
+
+    color: #000000;
+}
+/* properties to share class */
+.share{
+    position: absolute;
+    width: 80%;
+    height: 19px;
+    left: 192px;
+    top: 222px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: left;
+}
+/* properties to explainclass */
+.explain{
+    text-align: justify;
+    position: absolute;
+    width: 1081px;
+    
+    left: 192px;
+    top: 274px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 26px;
+}
+/* properties to advantage class */
+.advantage{
+    position: absolute;
+    width: 750px;
+    height: 32px;
+    left: 192px;
+    top: 1130px;
+
+    font-family: sans-serif;
+    font-weight: bold;
+
+    display: flex;
+    align-items: left;
+    text-align: justify;
+}
+/* adding  properties to par class */
+.par{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    line-height: 26px;
+    font-size: 16px;
+    text-align: justify;
+}
+/* adding properties to disadvantage class */
+.disadvantage{
+    position: absolute;
+    width: 750px;
+    height: 32px;
+    left: 192px;
+    top: 1580px;
+
+    font-family: sans-serif;
+    font-weight: bold;
+
+    display: flex;
+    align-items: left;
+    text-align: justify;
+}
+/* giving prperties to conclusion class */
+.Conclusion{
+    position: absolute;
+    width: 750px;
+    height: 32px;
+    left: 192px;
+    top: 2000px;
+
+    font-family: sans-serif;
+    font-weight: bold;
+
+    display: flex;
+    align-items: left;
+    text-align: justify;
+}
+/* table peropeties */
+table{
+    position: absolute;
+    width: 1100px;
+    height: 150px;
+    left: 192px;
+    top: 2280px;
+    align-items: center;
+    border-color: #000000;
+    background-color: white;
+}
+
+/* recommend class text properties */
+.recommend{
+    position: absolute;
+    width: 750px;
+    height: 32px;
+    left: 192px;
+    top: 2250px;
+
+    font-family: sans-serif;
+    font-weight: bold;
+
+    display: flex;
+    align-items: left;
+    text-align: justify;
+}
+/* giving properties */
+.topic{
+    height: 179px;
+}
+/* giving properties */
+header{
+    display: flex;
+}
+/* giving properties */
+article{
+height: 2000px;
+}
+
+/* giving properties */
+.sec{
+    height: 2190px;
+}
+/* giving properties */
+section{
+    display: flex;
+
+}
+

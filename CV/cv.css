@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family:sans-serif;
+    background-color: white;
+}
+ /* navigation */
+ .navarea {
+    background: #000000;
+    box-shadow: 0px 1px 0px 1px rgba(255, 255, 255, 0.4);
+    height: 95px;
+    width: 1440px;
+ }
+ /* contents class properties */
+.contents{
+    width: 1400;
+    margin:0 auto;
+    position: relative;
+}
+/* nav tag properties */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* properties for nav list */
+nav ul{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    margin-top: 32px;
+    margin-right: 188px;
+}
+/* properties for logo */
+ .logo{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 36px;
+    margin-left: 188px;
+    color: #FFFFFF
+}
+/* properties for navlist list items */
+.navlist li{
+    list-style: none;
+    margin-right: 100px;
+    align-items: center;
+    position:relative;
+}
+
+.navlist li a {
+    color: #FFFFFF;
+    font-family: sans-serif;
+    text-decoration: none;
+    transition: color 0.4ms ease-in, 0.8s ease-out;
+}
+/* hover effect for nav elements */
+.navlist li a:hover{
+    color:aqua;
+    position: relative;
+}
+/* properties for table  */
+table{
+    position: absolute;
+    left: 365px;
+    right: 328px;
+    top: 129px;
+    width: 700px;
+    height: 800px;
+    
+    
+}
